@@ -1,0 +1,152 @@
+:root{
+    --laranja: #fca311;
+    --azul-escuro:#14213d;
+    --branco: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.subtitulo{
+    font-size: 2em;
+}
+
+.titulo{
+    color:var(--laranja);
+    font-size: 3em;
+}
+#link-home{
+    font-size: 3em;
+    color: var(--laranja);
+    position: fixed;
+    z-index: 100;
+    right: 10px;
+    bottom: 30px;
+    background-color: var(--branco);
+    border-radius: 50%;
+}
+.header{
+    position: fixed;
+    width: 100vw;
+    height: 2em;
+    background-color: var(--azul-escuro);
+}
+
+.header a{
+    color: var(--laranja);
+    padding: 0 1em;
+}
+
+.header-menu{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4em;
+    background-image: url('./assets/imagens/imagem-home.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#home h2{
+    color: var(--branco);
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+#sobre{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4em;
+}
+
+#dados_contato{
+    width: 100vw;
+    height: 25vh;
+    background-color:var(--azul-escuro);
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4em;
+}
+
+#dados_contato ul{
+    list-style: none;
+    font-size: 1em;
+}
+#dados_contato li{
+    margin-bottom: 1rem;
+}
+
+#dados_contato i{
+    padding-right: .5em;
+}
+
+#formação{
+    width: 100vw;
+    height: 25vh;
+    padding: 0 4em;
+    
+}
+
+#formação ol{
+    display: flex;
+    padding-top: 1em;
+}
+
+#habilidades{
+    width: 100vw;
+    height: 20vh;
+    padding: 0 4em;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
+#experiencias{
+    width: 100vw;
+    height: 230vh;
+    padding: 0 4em;
+    
+}
+
+#cursos{
+    width: 100vw;
+    height: 35vh;
+    padding: 0 4em;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    
+}
+
+.footer{
+    width: 100vw;
+    background-color: var(--laranja);
+    display: flex;
+    padding: 1 4em;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.footer a{
+    line-height: 1.5;
+    padding: 0.5em ;
+    color: var(--azul-escuro);
+}
+
